@@ -2,5 +2,28 @@
   font-style: Helvetica, sans-serif;
 }
 body{
+  text-align: center;
+}
 
+.header{
+  color: white;
+  background-image: url("../images/bg-image.png");
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 23px;
+}
+
+.nav-links{
+  font-size: 18px;
+  color: white;
 }
