@@ -32,3 +32,16 @@ h3{
   font-size: 18px;
   color: white;
 }
+
+#newyork-design{
+  font-size: 23px;
+  color: white;
+  background-image: url("../images/bg-image.png");
+  background-size: auto;
+}
+.footer{
+  font-size: 11px;
+  background-color: dimgray;
+  color:white;
+  text-align: left;
+}
