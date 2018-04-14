@@ -5,40 +5,40 @@ body{
   text-align: center;
 }
 
-.header{
-  color: white;
-  background-image: url("../images/bg-image.png");
-}
-
 h1,h2,h3{
   font-weight: bold;
 }
 
-h1{
-  font-size: 70px;
+/* Both header and a paragraph have a background image so they
+should be in the same class */
+.bg-image-class{
+  color: white;
+  background-image: url("../images/bg-image.png");
 }
+.bg-image-class h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.bg-image-class h2{
+  font-size: 23px;
+  font-weight: : bold;
+}
+
 h2{
   font-size: 32px;
 }
 h3{
   font-size: 23px;
 }
-
 .process-item p{
   font-size: 14px;
 }
-
 .nav-links{
   font-size: 18px;
   color: white;
 }
 
-#newyork-design{
-  font-size: 23px;
-  color: white;
-  background-image: url("../images/bg-image.png");
-  background-size: auto;
-}
 .footer{
   font-size: 11px;
   background-color: dimgray;
